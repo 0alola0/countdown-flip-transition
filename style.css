@@ -1,0 +1,48 @@
+body{
+    background-image: url("./images/bg-stars.svg");
+    background-color: hsl(234, 17%, 12%);
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: 'Red Hat Text', sans-serif;
+}
+.launch-header{
+    text-align: center;
+    margin: auto;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 29px;    
+    margin-top: 132px;
+    letter-spacing: 7.5px;
+}
+.follow-me{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 255px;
+    align-items: center;
+}
+.icon-link{
+    color: #8385A9;
+    margin-inline: 20px;
+}
+.icon-link:hover{
+    color: #fc5d84;
+}
+.follow-text{
+    color: #8385A9;
+    margin-right: 20px;
+}
+.mountains{
+    position: fixed;
+    bottom: 0 !important;
+    background-image: url("./images/pattern-hills.svg");
+    background-position-y: 150px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100%;
+    width: 100%;
+    height: 265px;
+    z-index: -1;
+}
